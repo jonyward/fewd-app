@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import Item from "./Item";
 import { recipes } from "../data/data";
 import FetchNutrition from "./FetchNutrition";
 
 const DisplayRecipes = () => {
-
   return (
     <>
     <ul>
